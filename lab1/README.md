@@ -1,2 +1,20 @@
-# Lab 1: Data Analysis
-This folder contains data and a Jupyter Notebook for the first lab work on data preprocessing and visualization.
+
+# Lab 1: Data Preprocessing and Visualization
+
+## Описание данных:
+В наборе данных содержатся следующие показатели:
+- `age` (int): возраст участников.
+- `salary` (float): заработная плата.
+- `gender` (string): пол (Male/Female).
+- `purchased` (int): совершил ли покупку (1 — да, 0 — нет).
+
+## Используемые библиотеки:
+- `pandas` — для работы с табличными данными.
+- `numpy` — для вычислений.
+- `matplotlib` и `seaborn` — для визуализации.
+
+## Методы предобработки данных:
+- Проверка типов данных.
+- Обнаружение пропусков и их заполнение средними значениями или медианой.
+- Преобразование типов данных.
+- Визуализация распределений и корреляционных зависимостей.
